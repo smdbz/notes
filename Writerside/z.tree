@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="z"
+                 name="zak"
+                 start-page="back-end-development-with-django.md">
+
+    <toc-element topic="welcome.topic"/>
+    <toc-element topic="lib.topic"/>
+    <toc-element topic="back-end-development-with-django.md"/>
+    <toc-element topic="consequences-of-a-poorly-designed-api-project.topic"/>
+    <toc-element topic="using-labels.topic"/>
+</instance-profile>
