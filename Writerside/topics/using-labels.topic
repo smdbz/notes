@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Using Labels" id="using-labels">
+
+    <primary-label ref="label"/>
+    <secondary-label ref="wip"/>
+    <secondary-label ref="beta"/>
+    <p>
+        This is a labeled topic about some Beta version of an unfinished feature.</p>
+
+    <chapter title="Some chapter" id="some-chapter">
+        <primary-label ref="jetbrains"/>
+        <secondary-label ref="2023.3"/>
+        <secondary-label ref="experimental"/>
+        <p>
+            This chapter is marked with the JetBrains label,
+            applies to version 2023.3, and describes something experimental.</p>
+
+        <deflist collapsible="true" default-state="expanded">
+            <def title="Sarah" id="sarah">
+                <tooltip term="Sarah">Sarah</tooltip>
+                is my love
+            </def>
+            <def title="Second term" id="second-term">This is the definition of the second term</def>
+        </deflist>
+
+
+        <p>
+            <include from="lib.topic" element-id="mkdir">What goes here?</include>
+        </p>
+
+    </chapter>
+
+</topic>

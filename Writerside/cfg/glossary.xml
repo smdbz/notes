@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
+<terms>
+    <term name="foo">Description of what "foo" is.</term>
+    <term name="GUI">Graphical User Interface</term>
+    <term name="HTTP">Hypertext Transfer Protocol</term>
+    <term name="Sarah">My love</term>
+    <term name="API"></term>
+    <term name="SSH"></term>
+    <term name="SSL"></term>
+
+</terms>
