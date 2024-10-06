@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
-<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       id="consequences-of-a-poorly-designed-api-project" title="Consequences of a poorly designed API project">
+<topic id="consequences-of-a-poorly-designed-api-project"
+       title="Consequences of a poorly designed API project"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <title>
         Consequences of a poorly designed API project
     </title>
-    <chapter title="Introduction" id="introduction">
+    <chapter id="introduction" title="Introduction">
         <p>Creating a good API project can be challenging. You need to stick to the conventions, write proper error
             checks in your
             code, perform security checks, and make sure that your APIs are using processing power and bandwidth
@@ -15,7 +16,7 @@
             takes time and proper planning. But what happens if you don’t properly plan and execute your APIs?</p>
         <p>Let’s examine some consequences of a poorly designed API project.</p>
     </chapter>
-    <chapter title="Data breach" id="data-breach">
+    <chapter id="data-breach" title="Data breach">
         <table>
             <tr>
                 <td>
@@ -38,12 +39,13 @@
             </tr>
         </table>
         <p>
-            <control>Fix</control>: Add proper security checks in your code and create a solid authorisation layer to prevent unauthorised
+            <control>Fix:</control>
+            Add proper security checks in your code and create a solid authorisation layer to prevent unauthorised
             access
             to your data. Always double-check these sensitive API endpoints before deploying them to production.
         </p>
     </chapter>
-    <chapter title="Data corruption" id="data-corruption">
+    <chapter id="data-corruption" title="Data corruption">
         <table>
             <tr>
                 <td>
@@ -65,12 +67,13 @@
             </tr>
         </table>
         <p>
-            <control>Fix</control>: Besides security checks and a solid authorisation layer, an API developer must validate and sanitise user
+            <control>Fix:</control>
+            Besides security checks and a solid authorisation layer, an API developer must validate and sanitise user
             data
             before processing and saving it.
         </p>
     </chapter>
-    <chapter title="Wastage of computing power and memory" id="wastage-of-computing-power-and-memory">
+    <chapter id="wastage-of-computing-power-and-memory" title="Wastage of computing power and memory">
         <table>
             <tr>
                 <td>
@@ -93,11 +96,12 @@
             </tr>
         </table>
         <p>
-            <control>Fix</control>: To avoid this, always spend time optimising the code and double-checking your database-related code before
+            <control>Fix:</control>
+            To avoid this, always spend time optimising the code and double-checking your database-related code before
             deploying your APIs to production.
         </p>
     </chapter>
-    <chapter title="Wastage of bandwidth" id="wastage-of-bandwidth">
+    <chapter id="wastage-of-bandwidth" title="Wastage of bandwidth">
         <table>
             <tr>
                 <td>
@@ -120,11 +124,12 @@
             </tr>
         </table>
         <p>
-            <control>Fix</control>: To avoid this, always send proper caching headers with your API responses and implement filtering and
+            <control>Fix:</control>
+            To avoid this, always send proper caching headers with your API responses and implement filtering and
             pagination features so that the client application can request and receive only what they need.
         </p>
     </chapter>
-    <chapter title="Bad user experience" id="bad-user-experience">
+    <chapter id="bad-user-experience" title="Bad user experience">
         <table>
             <tr>
                 <td>
@@ -141,7 +146,7 @@
                 </td>
                 <td>It creates a bad user experience. The client application developers must go through extra processing
                     of the API data, extra code to create the final output, and a steeper learning curve to use your
-                    API, which was not necessary if the API was designed by following the standard conventions and best
+                    API. This is not necessary if the API is designed following the standard conventions and best
                     practices. Not accepting the Accept headers means that the API client is not getting the API
                     output in its required format. That will cause bad experiences because clients need extra time and
                     unnecessary code to process the data on their end. Also, sending wrong HTTP status codes
@@ -151,14 +156,15 @@
             </tr>
         </table>
         <p>
-            <control>Fix</control>: To avoid this, always follow the proper naming convention and implement data filtering, searching,
+            <control>Fix:</control>
+            To avoid this, always follow the proper naming convention and implement data filtering, searching,
             sorting,
             searching, and pagination features for your API endpoints. Always keep proper error checking in the code and
             write tests
             so that it doesn’t create unexpected 5XX errors on the server side.
         </p>
     </chapter>
-    <chapter title="Breaking client applications" id="breaking-client-applications">
+    <chapter id="breaking-client-applications" title="Breaking client applications">
         <table>
             <tr>
                 <td>
@@ -180,7 +186,7 @@
             </tr>
         </table>
     </chapter>
-    <chapter title="Failure to manage the app" id="failure-to-manage-the-app">
+    <chapter id="failure-to-manage-the-app" title="Failure to manage the app">
         <table>
             <tr>
                 <td>
@@ -202,12 +208,13 @@
             </tr>
         </table>
         <p>
-            <control>Fix</control>: Distribute the features and functionalities to multiple smaller Django apps in a decoupled way.
+            <control>Fix:</control>
+            Distribute the features and functionalities to multiple smaller Django apps in a decoupled way.
             Additionally,
             put some business logic in the models which can be reused by the other parts of your API project.
         </p>
     </chapter>
-    <chapter title="Conclusion" id="conclusion">
+    <chapter id="conclusion" title="Conclusion">
         <p>Taking the time to properly design an API project from the start will save you time and effort over the
             course of a
             project. The consequences of a poorly designed API affect everyone who uses your API, including the API

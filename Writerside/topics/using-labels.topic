@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
-<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Using Labels" id="using-labels">
+<topic id="using-labels"
+       title="Using Labels"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
     <primary-label ref="label"/>
     <secondary-label ref="wip"/>
@@ -11,7 +12,7 @@
     <p>
         This is a labeled topic about some Beta version of an unfinished feature.</p>
 
-    <chapter title="Some chapter" id="some-chapter">
+    <chapter id="some-chapter" title="Some chapter">
         <primary-label ref="jetbrains"/>
         <secondary-label ref="2023.3"/>
         <secondary-label ref="experimental"/>
@@ -20,16 +21,16 @@
             applies to version 2023.3, and describes something experimental.</p>
 
         <deflist collapsible="true" default-state="expanded">
-            <def title="Sarah" id="sarah">
+            <def id="sarah" title="Sarah">
                 <tooltip term="Sarah">Sarah</tooltip>
                 is my love
             </def>
-            <def title="Second term" id="second-term">This is the definition of the second term</def>
+            <def id="second-term" title="Second term">This is the definition of the second term</def>
         </deflist>
 
 
         <p>
-            <include from="lib.topic" element-id="mkdir">What goes here?</include>
+            <include element-id="mkdir" from="lib.topic"></include>
         </p>
 
     </chapter>
