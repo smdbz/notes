@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
-<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Snippets" id="lib">
+<topic id="lib"
+       title="Snippets"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
 
-    <tldr> A collection of useful code snippets </tldr>
+    <tldr> A collection of useful code snippets</tldr>
 
 
-    <chapter title="Useful code snippets" id="useful-code-snippets">
-        <chapter title="Shell commands" id="shell-commands">
+    <chapter id="useful-code-snippets" title="Useful code snippets">
+        <chapter id="shell-commands" title="Shell commands">
             <snippet id="mkdir">
-                <code-block lang="shell">mkdir directory-name </code-block>
+                <code-block lang="shell">mkdir directory-name</code-block>
             </snippet>
             <snippet id="cd">
                 <code-block lang="shell">cd</code-block>
