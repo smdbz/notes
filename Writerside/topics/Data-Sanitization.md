@@ -14,15 +14,16 @@ DRF.
 ## Sanitize HTML and JavaScript
 
 Unless it is intended, you should always check if the user client added an HTML tag inside the data and neutralized it
-by converting special HTML characters into HTML entities. This is because hackers can use <script> tags to inject
-JavaScript and <img> tags to add unwanted trackers.
+by converting special HTML characters into HTML entities.
+This is because hackers can use `<script>` tags to inject
+JavaScript and `<img>` tags to add unwanted trackers.
 
-Imagine someone inputs Tomato Pasta <script>alert(‘hello’)</script> as a menu item. If you don’t sanitize the data, the
-script tag will successfully execute when you display this menu title. Attackers can inject malicious scripts in this
-way. An alert like (‘hello’) cannot do any harm, but attackers can inject malicious code which can be harmful.
+Imagine someone inputs Tomato Pasta `<script>alert(‘hello’)</script>` as a menu item. If you don’t sanitize the data,
+the script tag will successfully execute when you display this menu title. Attackers can inject malicious scripts in
+this way. An alert like (‘hello’) cannot do any harm, but attackers can inject malicious code which can be harmful.
 
 There is a popular third-party package called bleach that can help you to clean this. It will convert all HTML special
-characters like <’, ‘> and other tags to HTML entities so that the browser doesn’t execute them as HTML anymore.
+characters like '<', '>' and other tags to HTML entities so that the browser doesn’t execute them as HTML any more.
 
 ## Install bleach
 
@@ -90,12 +91,15 @@ def validate(self, attrs):
 Attackers commonly use SQL injection by injecting SQL queries in the input data to perform malicious actions in
 the database.
 
-Preventing SQL injection is comparatively easy. Although it is usually not advisable to run raw SQL there are cases
-where it’s necessary. Still, if you really need to run raw SQL, you must escape the parameters using string
-placeholders. You should never keep the placeholder inside quotations because then you will be at risk of SQL injection.
+Preventing SQL injection is comparatively easy.
+Although it is usually not advisable to run raw SQL, there are cases
+where it’s necessary.
+Still, if you really need to run raw SQL, you must escape the parameters using string
+placeholders.
+You should never keep the placeholder inside quotations because then you will be at risk of SQL injection.
 Below are one correct and two incorrect examples of preventing SQL injection.
 
-**Note:** _Always avoid running raw SQL queries unless it is absolutely necessary._
+**Note: ** _Always avoid running raw SQL queries unless it is absolutely necessary._
 
 ### Correct way: Using parameterized query and no quotation
 
