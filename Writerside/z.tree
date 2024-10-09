@@ -8,7 +8,15 @@
 
     <toc-element topic="welcome.topic">
         <toc-element topic="back-end-development-with-django.md"/>
+        <toc-element topic="python-package-management.md">
+            <toc-element topic="using-poetry-for-a-django-project.md"/>
+        </toc-element>
         <toc-element topic="apis.md">
+            <toc-element topic="other-types-of-serializers-in-drf.md"/>
+            <toc-element topic="Different-types-of-renderers.md"/>
+            <toc-element topic="Data-Sanitization.md"/>
+            <toc-element topic="More-on-filtering-and-pagination.md"/>
+            <toc-element topic="Importance-of-data-validation.md"/>
             <toc-element topic="Generic-views-and-ViewSets-in-DRF.md"/>
             <toc-element topic="Different-types-if-routing-in-DRF.md"/>
             <toc-element topic="django-rest-framework-drf.md"/>
@@ -16,15 +24,9 @@
             <toc-element topic="xml-and-json-response-types.md"/>
             <toc-element topic="mock-apis.md"/>
         </toc-element>
-        <toc-element topic="More-on-filtering-and-pagination.md"/>
-        <toc-element topic="Data-Sanitization.md"/>
-        <toc-element topic="Different-types-of-renderers.md"/>
-        <toc-element topic="other-types-of-serializers-in-drf.md"/>
+        <toc-element topic="HTTP-Requests.md"/>
+        <toc-element topic="Meta-back-end-developer-API-project.md"/>
     </toc-element>
     <toc-element topic="lib.topic"/>
     <toc-element topic="using-labels.topic"/>
-    <toc-element topic="python-package-management.md">
-        <toc-element topic="using-poetry-for-a-django-project.md"/>
-    </toc-element>
-    <toc-element topic="Importance-of-data-validation.md"/>
 </instance-profile>
