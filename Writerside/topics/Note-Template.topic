@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Note Template" id="Note-Template">
+
+    <tldr>
+        <p> <control>Audience:</control> Me in six months time (hello Zak) </p>
+
+        Write the aim of the topic here. This should help focus the below text when writing and give the reader an understanding of what they should get out of reading this page.
+    </tldr>
+
+    <chapter title="Introduction" id="introduction">
+        Introduce the topic
+    </chapter>
+
+    <chapter title="Main Chapter Here" id="main-chapter-here">
+        The meat of the topic
+    </chapter>
+
+    <chapter title="Sources" id="sources">
+        List the sources used in the document
+    </chapter>
+
+
+
+
+
+
+
+
+
+</topic>

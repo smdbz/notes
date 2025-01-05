@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="HTTP" id="Writerside-Note-Template">
+
+    <tldr>
+        <p>
+            <control>Audience:</control>
+            Me in six months time (hello Zak)
+        </p>
+
+        The aim of this page is to remind you what HTTP is.
+    </tldr>
+
+    <chapter title="Introduction" id="introduction">
+        HTTP stands for Hypertext Transfer Protocol and it;s one of the most widely used communication protocols for
+        transferring data acress the internet.
+
+        Add link for HTTP history
+
+        <emphasis>In a nutshell</emphasis>
+        the protocol consists of requests, sent by a client, and responses, sent be servers.
+
+    </chapter>
+
+    <chapter title="HTTP Request" id="http-request">
+        HTTP requests are sent by your browser when you use the internet.
+
+    </chapter>
+
+    <chapter title="HTTP Methods" id="http-methods">
+        <table>
+            <tr>
+                <td>HTTP method</td>
+                <td>Description</td>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>Returns the requested resource. If not found, returns a 404 Not Found status code.</td>
+            </tr>
+            <tr>
+                <td>POST</td>
+                <td>Creates a record. The POST request always comes with an HTTP request body containing JSON or Form
+                    URL encoded data, which is also called a payload. If the data is valid, the API endpoint will create
+                    a new resource based on these data. Although you can create multiple resources with a single POST
+                    call, it is not considered a best practice to do so.
+                </td>
+
+            </tr>
+            <tr>
+                <td>PUT</td>
+                <td>Instructs the API to replace a resource. Like a POST request, the PUT request also comes with data.
+                    A PUT request usually supplies all data for a particular resource so that the API developer can
+                    fully replace that resource with the provided data. A PUT request deals with a single resource.
+                </td>
+            </tr>
+            <tr>
+                <td>PATCH</td>
+                <td> Tells the API to update a part of the resource. Note the difference between a PUT and a PATCH call.
+                    A PUT call replaces the complete resource, while the PATCH call only updates some parts. A PATCH
+                    request also deals with a single record.
+                </td>
+            </tr>
+            <tr>
+                <td>DELETE</td>
+                <td> Instructs the API to delete a resource.
+                </td>
+            </tr>
+
+
+        </table>
+    </chapter>
+
+    <chapter title="Sources" id="sources">
+        List the sources used in the document
+    </chapter>
+
+
+</topic>
