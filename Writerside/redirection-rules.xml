@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="7cca0b48">
+        <description>Created after removal of "Submit" from zak</description>
+        <accepts>Submit.html</accepts>
+    </rule>
+    <rule id="47f461e9">
+        <description>Created after removal of "Topic Template" from zak</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
+</rules>

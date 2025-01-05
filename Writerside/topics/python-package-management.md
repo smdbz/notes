@@ -1,3 +1,12 @@
 # Python package management
 
-Start typing here...
+## pipenv
+From the official documentation:
+
+`pip install pipenv --user`
+
+
+## poetry
+
+## pyenv
+pyenv-win for the windows version
