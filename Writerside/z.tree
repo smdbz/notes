@@ -9,6 +9,7 @@
     <toc-element topic="welcome.topic">
         <toc-element topic="back-end-development-with-django.md"/>
         <toc-element topic="apis.md">
+            <toc-element topic="Test-Driven-Development-of-an-API.md"/>
             <toc-element topic="Writerside-Note-Template.topic"/>
             <toc-element topic="More-on-filtering-and-pagination.md"/>
             <toc-element topic="Different-types-of-renderers.md"/>
@@ -23,11 +24,13 @@
             <toc-element topic="mock-apis.md"/>
         </toc-element>
         <toc-element topic="HTTP.topic"/>
-        <toc-element topic="Test-Driven-Development-of-an-API.md"/>
     </toc-element>
+    <toc-element topic="Discord-Bot.topic"/>
+    <toc-element topic="Topic-Template.topic"/>
     <toc-element topic="The-Full-Stack.topic">
         <toc-element topic="Writerside-Note-Template_2.topic"/>
     </toc-element>
+    <toc-element topic="Pseudo-elements.md"/>
     <toc-element topic="All-selectors-and-their-specificity.md"/>
     <toc-element topic="Grids-and-flexbox-cheat-sheet.md"/>
     <toc-element topic="Submit.topic"/>

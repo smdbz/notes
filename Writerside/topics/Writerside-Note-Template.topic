@@ -8,28 +8,62 @@
     <tldr>
         <p>
             <control>Audience:</control>
-            Me in six months time (hello Zak)
+            Me in six-months time (hello Zak)
         </p>
-
-        The aim of this page is to remind you what HTTP is.
+        This serves as a reminder of the API parameters available to you.
     </tldr>
+    <chapter title="4 Types of API Parameters" id="4-types-of-api-parameters">
+        <p>There are four main types of request params:</p>
 
-    <chapter title="Introduction" id="introduction">
-        HTTP stands for Hypertext Transfer Protocol and it;s one of the most widely used communication protocols for
-        transferring data acress the internet.
+        <chapter title="Query Parameters" id="query-parameters">
+            <p>Query parameters are the most common type. They are appended to the URL path after a ? character:</p>
+            <code-block lang="">
+                /users?page=1&amp;per_page=20
+                </code-block>
+            <p>Query params work well for filtering, sorting, pagination, and simple lookups.</p>
 
-        Add link for HTTP history
+        </chapter>
 
-        <emphasis>In a nutshell</emphasis>
-        the protocol consists of requests, sent by a client, and responses, sent be servers.
+        <chapter title="Path Parameters" id="path-parameters">
+            <p>Path parameters are embedded into the URL path itself:</p>
 
+            <code-block lang="">
+            /users/{userId}
+                </code-block>
+
+            <p>This allows identifiers and fixed attributes to appear directly in the resource path for more RESTful,
+                self-documenting APIs. Path params are also required for many URI patterns like collection/element.</p>
+            <p>Most modern API frameworks like Express support both query and path parameters.</p>
+        </chapter>
+
+        <chapter title="Header Parameters" id="header-parameters">
+            <p>Header parameters are components of an HTTP request that contain metadata about the request or the client
+                making the request. They typically include information like the content type of the request body,
+                authentication credentials, cache controls, and more. These parameters are transmitted in the request
+                header, separate from the request body.
+
+                For example:</p>
+
+            <code-block>Content-Type: application/json
+            Authorization: Bearer &lt;token&gt;</code-block>
+        </chapter>
+        <chapter title="Request Body Parameters" id="request-body-parameters">
+            <p>Request body parameters are the data sent along with the request in the body of the HTTP message. They
+                carry
+                the actual payload or data that the client wants to send to the server. These parameters are commonly
+                used
+                in POST, PUT, and PATCH requests to transmit data like JSON objects, form data, or file uploads.
+
+                For example:</p>
+
+            <code-block>
+            {
+            "username": "example",
+            "password": "password123"
+            }
+            </code-block>
+        </chapter>
     </chapter>
-
-    <chapter title="HTTP Request" id="http-request">
-        HTTP requests are sent by your browser when you use the internet.
-
-    </chapter>
-
     <chapter title="HTTP Methods" id="http-methods">
         <table>
             <tr>
@@ -68,13 +102,7 @@
                 <td> Instructs the API to delete a resource.
                 </td>
             </tr>
-
-
         </table>
-    </chapter>
-
-    <chapter title="Sources" id="sources">
-        List the sources used in the document
     </chapter>
 
 

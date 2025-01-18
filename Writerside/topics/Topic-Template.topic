@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="HTML" id="Topic-Template">
+
+    <!-- Title Section -->
+    <chapter title="HTML" id="html">
+        <p>
+            Most of the information here is condensed from <a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Traversy Media</a>
+            HTML Crash course for absolute beginners
+        </p>
+    </chapter>
+
+    <!-- Introduction/Overview Section -->
+    <chapter title="Introduction/Overview" id="introduction-overview">
+        <p id="html-is-a-markup-language-u-take-only-the-necessary-width">
+            HTML is a markup language used to create documents.
+            Tags define elements within the document and give it structure.
+            There are six heading tags in HTML.
+
+            Inline Elements:
+            Do not start on a new line
+            Take only the necessary width
+        </p>
+
+        <code-block>
+            &lt;div>&lt;/div&gt;, &lt;h1 through h6&gt;, &lt;p&gt;, &lt;form&gt;&lt;/form&gt;
+        </code-block>
+
+        Block elements
+        Start on a new line
+        Take the full width available
+
+        <code-block lang="HTML">
+            &lt;span>&lt;/span>, &lt;img>, &lt;a>
+        </code-block>
+
+    </chapter>
+
+    <!-- Main Content Section -->
+    <chapter title="Tag Attributes" id="tag-attributes">
+
+        <code>&lt;tagname attributename="attributevalue">contect&lt;/tagname></code>
+        <code>&lt;h1 title="My Company">About Us ">&lt;/h1></code>
+
+        <list>
+            <li>All tags can have attributes</li>
+            <li>Provide information about an element</li>
+            <li>Placed within the start tag</li>
+            <li>Key/value pairs (id="someId")</li>
+        </list>
+
+
+    <chapter title="CSS" id="cdd">
+        There are a number of ways to implement css.
+        <list>
+            <li>inline - DO NOT USE. Doesn't separate presentation and content</li>
+            <li>Provide information about an element. </li>
+            <li>Placed within the start tag</li>
+            <li>Key/value pairs (id="someId")</li>
+        </list>
+
+
+    </chapter>
+
+
+
+
+        <chapter title="Concept Explanation" id="concept-explanation">
+            <p>
+                Break down the main ideas or concepts step-by-step.
+            </p>
+            <deflist>
+                <def title="Core Idea/Sub-topic 1">
+                    <p>
+                        Description and supporting details/examples.
+                    </p>
+                </def>
+                <def title="Core Idea/Sub-topic 2">
+                    <p>
+                        Description and supporting details/examples.
+                    </p>
+                </def>
+            </deflist>
+        </chapter>
+        <chapter title="Steps/Instructions (if applicable)" id="steps-instructions">
+            <list>
+                <li>
+                    Step 1 - Description of the step.
+                </li>
+                <li>
+                    Step 2 - Description of the step.
+                </li>
+                <li>
+                    And so on.
+                </li>
+            </list>
+        </chapter>
+    </chapter>
+
+    <!-- Examples/Illustrations Section -->
+    <chapter title="Examples/Illustrations" id="examples-illustrations">
+        <p>
+            Include code snippets, diagrams, or real-world examples to support understanding.
+        </p>
+        <code-block lang="html">
+            <!-- Example Code Snippet -->
+            submit
+        </code-block>
+    </chapter>
+
+    <!-- Glossary Section -->
+    <chapter title="Glossary/Definitions" id="glossary-definitions">
+        <deflist>
+            <def title="Term 1">
+                Brief description here.
+            </def>
+            <def title="Term 2">
+                Brief description here.
+            </def>
+        </deflist>
+    </chapter>
+
+    <!-- Related Information Section -->
+    <chapter title="Related Information" id="related-information">
+        <list>
+            <li>
+                <a href="Empty-XML-Topic.topic" anchor="main-content"/>
+            </li>
+            <li>
+                <a href="Empty-XML-Topic.topic#introduction-overview">Introduction</a>
+            </li>
+        </list>
+    </chapter>
+
+    <!-- Summary Section -->
+    <chapter title="Summary" id="summary">
+        <p>
+            Provide a concise summary that recaps key ideas.
+        </p>
+    </chapter>
+</topic>
