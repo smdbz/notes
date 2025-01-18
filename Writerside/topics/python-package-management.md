@@ -10,3 +10,7 @@ From the official documentation:
 
 ## pyenv
 pyenv-win for the windows version
+
+## dotenv
+
+Use python dotenv to load environment variables into files
