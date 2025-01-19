@@ -127,10 +127,10 @@
     <chapter title="Related Information" id="related-information">
         <list>
             <li>
-                <a href="Empty-XML-Topic.topic" anchor="main-content"/>
+                <a href="Topic-Template.topic" anchor="main-content"/>
             </li>
             <li>
-                <a href="Empty-XML-Topic.topic#introduction-overview">Introduction</a>
+                <a href="Topic-Template.topic#introduction-overview">Introduction</a>
             </li>
         </list>
     </chapter>
