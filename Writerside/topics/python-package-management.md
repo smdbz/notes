@@ -9,7 +9,7 @@ From the official documentation:
 ## poetry
 
 ## pyenv
-pyenv-win for the windows version
+pyenv-win for the Windows version
 
 ## pyton-dotenv
 Use to add environment variables to your script
