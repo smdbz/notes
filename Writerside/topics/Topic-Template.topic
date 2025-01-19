@@ -8,7 +8,8 @@
     <!-- Title Section -->
     <chapter title="HTML" id="html">
         <p>
-            Most of the information here is condensed from <a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Traversy Media</a>
+            Most of the information here is condensed from <a href="https://www.youtube.com/watch?v=UB1O30fR-EE">Traversy
+            Media</a>
             HTML Crash course for absolute beginners
         </p>
     </chapter>
@@ -53,19 +54,17 @@
         </list>
 
 
-    <chapter title="CSS" id="cdd">
-        There are a number of ways to implement css.
-        <list>
-            <li>inline - DO NOT USE. Doesn't separate presentation and content</li>
-            <li>Provide information about an element. </li>
-            <li>Placed within the start tag</li>
-            <li>Key/value pairs (id="someId")</li>
-        </list>
+        <chapter title="CSS" id="cdd">
+            There are a number of ways to implement css.
+            <list>
+                <li>inline - DO NOT USE. Doesn't separate presentation and content</li>
+                <li>Provide information about an element.</li>
+                <li>Placed within the start tag</li>
+                <li>Key/value pairs (id="someId")</li>
+            </list>
 
 
-    </chapter>
-
-
+        </chapter>
 
 
         <chapter title="Concept Explanation" id="concept-explanation">
@@ -127,9 +126,11 @@
     <chapter title="Related Information" id="related-information">
         <list>
             <li>
-                <a href="Topic-Template.topic" anchor="main-content"/>
+                <!-- This is the explicit way to and an anchor -->
+                <a href="Topic-Template.topic" anchor="glossary-definitions"/>
             </li>
             <li>
+                <!-- This is the standard URL notation way to add an anchor-->
                 <a href="Topic-Template.topic#introduction-overview">Introduction</a>
             </li>
         </list>
