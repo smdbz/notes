@@ -11,6 +11,11 @@ From the official documentation:
 ## pyenv
 pyenv-win for the windows version
 
-## dotenv
+## pyton-dotenv
+Use to add environment variables to your script
 
-Use python dotenv to load environment variables into files
+## Pre-commit hooks
+- SQL
+- yaml
+- Python
+- isort
